@@ -8,7 +8,7 @@ class QtBaseConan(ConanFile):
     """ Qt Base Conan package """
 
     name = "QtBase"
-    version = "5.6.2"
+    version = "5.8.0"
     sourceDir = "qt5"
     settings = "os", "arch", "compiler", "build_type"
     options = {"shared": [True, False], "opengl": ["desktop", "dynamic"]}
